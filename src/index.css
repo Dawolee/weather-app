@@ -208,6 +208,9 @@ div > p {
 }
 
 @media only screen and (max-width: 1980px) {
+  .searchbar {
+    width: 25%;
+  }
   .data {
     padding: 20rem 0;
   }
@@ -217,6 +220,9 @@ div > p {
 }
 
 @media only screen and (max-width: 1800px) {
+  .searchbar {
+    width: 28%;
+  }
   .data {
     padding: 18rem 0;
   }
@@ -226,6 +232,9 @@ div > p {
 }
 
 @media only screen and (max-width: 1600px) {
+  .searchbar {
+    width: 30%;
+  }
   .data {
     padding: 16rem 0;
   }
@@ -235,6 +244,9 @@ div > p {
 }
 
 @media only screen and (max-width: 1400px) {
+  .searchbar {
+    width: 35%;
+  }
   .data {
     padding: 13rem 0;
   }
@@ -244,6 +256,9 @@ div > p {
 }
 
 @media only screen and (max-width: 1200px) {
+  .searchbar {
+    width: 38%;
+  }
   .data {
     padding: 10rem 0;
   }
