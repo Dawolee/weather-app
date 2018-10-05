@@ -1,12 +1,10 @@
-Wanted to add view next week but can't access more than 5 days since I'm using a free account.
-
-Was going to hide my API key in a secrets file but then you would not be able to test the API when trying to run on your computer
-
 ## buildit Weather App
 
 Hello! This is the weather app I created for the buildit interview process. It is a fully responsive web app with some neat functionality.
 
 ![alt text](./public/responsive.gif)_responsive design_
+
+[Here is the link to the deployed app!](https://buildit-weather-app-dawoonlee.herokuapp.com/)
 
 ## Features
 
