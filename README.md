@@ -71,3 +71,7 @@ In addition, I know it's not good practice to leave your API key in public, but 
 #### Testing specs
 
 Although I am familiar with certain testing frameworks such as Mocha and Jasmine, I was not too familiar with testing React components. Also due to my time constraints, I was not able to do enough research to learn about testing them. I had read into the basics and installed certain modules (enzyme, chai) but considering my limited time, and testing being a bonus, I unfortunately decided to leave it out. However, if I had more time, I would love to thoroughly implement tests for my web app. I only have one test currently, which tests the API call and the response object. You can view the test by typing in npm test in your terminal.
+
+#### CSS stylesheet
+
+I realized after finishing the project that my class names are not as clear as I wanted them to be. I also think spliting up the style sheet into different files would've led to a more neat and readable format.
