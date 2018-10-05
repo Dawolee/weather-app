@@ -14,7 +14,6 @@ export let HelperFunctionAPI = (url, callbackFn, type, updateView) => {
     //fetches from the API and converts the response into JSON data
     .then(resp => resp.json())
     .then(data => {
-      console.log(data)
       if (data.cod !== '200') {
         //if data could not be found, throws a new error with the error message given by response object
         throw new Error(data.message)
