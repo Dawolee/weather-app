@@ -74,7 +74,7 @@ export default class SearchBar extends Component {
         </ButtonGroup>
         <FormGroup controlId="search-type">
           <FormControl
-            placeholder={type === 'zip' ? 'Enter Zipcode' : 'Enter City Name'}
+            placeholder={type === 'zip' ? 'Enter Zip code' : 'Enter City Name'}
             value={value}
             onChange={this.handleChange}
           />
