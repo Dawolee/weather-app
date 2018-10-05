@@ -14,8 +14,10 @@ export default class Daily extends Component {
 
         {/* depending on imperial vs metric, prints out miles/hour vs meter/sec */}
         <div className="daily__humidity">
-          Wind Speed: {currentDay.wind.speed}
-          <p>{type === 'Farenheit' ? ' miles/hour' : ' meters/sec'}</p>
+          <p>
+            Wind Speed: {currentDay.wind.speed}
+            {type === 'Farenheit' ? ' miles/hour' : ' meters/sec'}
+          </p>
         </div>
       </div>
     )
