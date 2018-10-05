@@ -32,7 +32,7 @@ export default class SearchBar extends Component {
     let { grabData, toggleView } = this.props
     //prevents the page from refreshing after submitting form
     e.preventDefault()
-    let url = 'http://api.openweathermap.org/data/2.5/forecast?'
+    let url = 'https://api.openweathermap.org/data/2.5/forecast?'
 
     //setting up url to pass up to parent and to allow toggle searching by either imperial or metric units
     url += type === 'zip' ? 'zip=' + value : 'q=' + value
