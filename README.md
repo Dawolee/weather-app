@@ -22,7 +22,7 @@ The app allows users to toggle between Imperial and Metric units. Users can also
 
 I decided to use the create-react-app starter kit to speed up the development process instead of spending time on the boilerplate. You will also need npm and node (version 6 or higher) to be able to run this app.
 
-With that being said, create-react-app comes with some default scripts. To run the app, all you have to do is type npm install (to install the needed node modules) and npm run start to run the app in your local server!
+With that being said, create-react-app comes with some default scripts. To run the app, all you have to do is type npm install (to install the needed node dependencies) and npm run start to run the app in your local server!
 
 ## Thought process and trade offs
 
