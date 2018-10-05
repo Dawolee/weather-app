@@ -14,16 +14,30 @@ Redux might've been useful but i was rarely sending information down children an
 
 hardcoded some default images for weather condition.
 
-## Code-Bono!
+## buildit Weather App
 
-The perfect platform to match eager and well-meaning developers with great organizations in need of tech talent on a project-based basis. Code Bono is a platform that connects nonprofit organizations with software developers looking to contribute their skills through pro bono work. Code Bono is a web application built using React, Redux, Express, Socket.io, and GitHub API Integration.
+Hello! This is the weather app I created for the buildit interview process. It is a fully responsive web app with some neat functionality.
+
+![alt text](./public/responsive.gif)_responsive design_
 
 ## Features
 
-When signing up, a user can opt to sign up, as either a developer or an organization as depicted below.
+Users can search for weather data by zipcode or city name.
 
-![alt text](./public/responsive.gif)_as a developer_
+![alt text](./public/searchbyzip.gif)_searching by zip_
 
-![alt text](./public/readmePics/org-signup.png)_as an organization_
+![alt text](./public/searchbycity.gif)_searching by city_
 
-Developers can browse proposals posted by nonprofits and form teams by selecting a project that interests them. Once a team is formed for a project, users gain access to a shared collaboration space which includes GitHub Project Board integration and realtime video and text chat capabilities.
+The app allows users to toggle between Imperial and Metric units. Users can also select on a specific day, allowing more data about the day to render out underneath. In responsive mode, the extra data is just rendered out within the single day block.
+
+![alt text](./public/features.gif)_exploring the features_
+
+## How to run the app
+
+I decided to use the create-react-app starter kit to speed up the development process instead of spending time on the boilerplate. You will also need npm and node to be able to this app.
+
+With that being said, create-react-app comes with some default scripts. To run the app, all you have to do is type npm run start and the app will start to run on a local server!
+
+## Thought process and trade offs
+
+## What I would want to add
