@@ -1,28 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
+import Routes from './Routes'
 
 class App extends Component {
+  state = {
+    view: 'search'
+  }
+
+  toggleView = () => {
+    this.state.view === 'search'
+      ? this.setState({ view: 'data' })
+      : this.setState({ view: 'search' })
+  }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>buildit Weather App</p>
         </header>
+        <div
+          className={
+            this.state.view === 'search' ? 'container search' : 'container data'
+          }
+        >
+          <Routes toggleView={this.toggleView} />
+        </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
